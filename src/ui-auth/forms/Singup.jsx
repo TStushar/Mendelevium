@@ -10,6 +10,7 @@ const Signup = () => {
     email: '',
     password: '',
     role: 'Student' // Set default role here
+
   });
   const [error, setError] = useState('');
 
@@ -123,6 +124,7 @@ const Signup = () => {
               onChange={handleRoleChange}
               className="w-full px-4 py-2 text-black border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-300 focus:border-transparent"
             >
+
               <option value="Alumni">Alumni</option>
               <option value="Admin">Admin</option>
             </select>
