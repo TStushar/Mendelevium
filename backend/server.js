@@ -1,7 +1,7 @@
 // Instantiate express
 const express = require("express");
-// const http = require('http');
-// const cors = require("cors");
+const http = require('http');
+const cors = require("cors");
 
 const app = express();
 
@@ -13,10 +13,10 @@ const PORT = process.env.PORT || 4000;
 app.use(express.json());
 
 // Enable CORS
-// app.use(cors({
-//   origin: 'http://localhost:5173', 
-//   credentials: true // Optional, depending on your requirements
-// }));
+app.use(cors({
+  origin: 'http://localhost:5174', 
+  credentials: true // Optional, depending on your requirements
+}));
 
 // Connecting server to DB
 require("./config/database").dbConnect();
