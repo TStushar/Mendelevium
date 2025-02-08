@@ -34,8 +34,8 @@ const Network_tab = () => {
               <Card
                 imgsrc={val.imgsrc}
                 name={val.name}
-                degree={val.degree}
-                yearofpassing={val.yearofpassing}
+                email={val.email}
+                
                 linkedin={val.linkedin}
               />
             </motion.div>
