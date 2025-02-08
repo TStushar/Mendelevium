@@ -3,7 +3,7 @@ import './index.css';
 
 const App = () => {
   return (
-    <div className='bg-red-500 h-11'>App</div>
+    <div className='bg-red-500 h-11'>Prachi</div>
   )
 }
 
