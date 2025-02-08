@@ -1,9 +1,10 @@
 import React from 'react';
 import './index.css'; 
+import { UserProfile } from './ui-user-profile';
 
 const App = () => {
   return (
-    <div className='bg-red-500 h-11'>Prachi</div>
+    <UserProfile/>
   )
 }
 
