@@ -121,29 +121,6 @@ const Login = () => {
             </Link>
           </p>
         </div>
-        <div className="text-center mt-4">
-          <p className="text-gray-600">Or Login with</p>
-          <div className="flex justify-center space-x-6 mt-3">
-            <a
-              href="#"
-              className="text-gray-600 border rounded-full p-2 w-12 h-12 flex items-center justify-center hover:bg-purple-500 hover:text-white"
-            >
-              <i className="fab fa-facebook-f text-2xl"></i>
-            </a>
-            <a
-              href="#"
-              className="text-gray-600 border rounded-full p-2 w-12 h-12 flex items-center justify-center hover:bg-purple-500 hover:text-white"
-            >
-              <i className="fab fa-google text-2xl"></i>
-            </a>
-            <a
-              href="#"
-              className="text-gray-600 border rounded-full p-2 w-12 h-12 flex items-center justify-center hover:bg-purple-500 hover:text-white"
-            >
-              <i className="fab fa-twitter text-2xl"></i>
-            </a>
-          </div>
-        </div>
       </div>
     </div>
   );
