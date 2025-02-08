@@ -2,6 +2,7 @@ import React from "react";
 import "./index.css";
 import { UserProfile } from "./ui-user-profile";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import Network_tab from "./ui-network/NetworkTab.jsx";
 import Login from './ui-auth/forms/Login.jsx'
 import Signup from './ui-auth/forms/Singup.jsx'
